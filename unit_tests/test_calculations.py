@@ -18,8 +18,8 @@ class TestCalculations(unittest.TestCase):
         output = self.Calculations.multiply(5,2)
         expected = 10
         self.assertEqual(expected,output)
-    # def test_division(self):
-    #     output = self.Calculations.division(6,2)
-    #     expected = 3
-    #     self.assertEqual(expected,output)
+    def test_division(self):
+        output = self.Calculations.division(6,2)
+        expected = 3
+        self.assertEqual(expected,output)
 
