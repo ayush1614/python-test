@@ -6,4 +6,4 @@ class TestFactorial(unittest.TestCase):
         self.Factorial = Factorial()
 
     def test_factorial(self):
-        self.assertEqual(120, self.Factorial.factorial(5))
+        self.assertEqual(720, self.Factorial.factorial(6))
