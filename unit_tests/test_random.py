@@ -27,3 +27,7 @@ class TestRandoms(unittest.TestCase):
         self.assertEqual('T','t'.upper())
         self.assertEqual('U','u'.upper())
         self.assertEqual('V','v'.upper())
+        self.assertEqual('W','w'.upper())
+        self.assertEqual('X','x'.upper())
+        self.assertEqual('Y','y'.upper())
+        self.assertEqual('Z','z'.upper())
